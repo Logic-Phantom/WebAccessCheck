@@ -1,0 +1,11 @@
+{
+  "name": "ex-auditor",
+  "version": "1.0.0",
+  "scripts": {
+    "audit": "node runAxe.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.7.0",
+    "playwright": "^1.43.0"
+  }
+}
