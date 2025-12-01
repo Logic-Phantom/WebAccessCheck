@@ -1,0 +1,74 @@
+============================================================================================
+실무 접근성 인사이트 리포트
+============================================================================================
+
+마지막 검사 시각 : 2025-12-01 15:57:09
+
+--------------------------------------------------------------------------------------------
+ALT 텍스트 이슈 (0건)
+--------------------------------------------------------------------------------------------
+
+해당 유형의 문제가 발견되지 않았습니다.
+
+--------------------------------------------------------------------------------------------
+필드 레이블 이슈 (0건)
+--------------------------------------------------------------------------------------------
+
+해당 유형의 문제가 발견되지 않았습니다.
+
+--------------------------------------------------------------------------------------------
+탭/포커스 이슈 (1건)
+--------------------------------------------------------------------------------------------
+
+[1] landmark-one-main (MODERATE)
+ㆍ설명      : Ensure the document has a main landmark
+ㆍ권장 조치 : Document should have one main landmark
+ㆍ참고 문서 : https://dequeuniversity.com/rules/axe/4.11/landmark-one-main?application=axeAPI
+ㆍ영향 요소 수 : 1
+ㆍ대표 문제 요소
+    - <html>
+      selector: html
+      근거: Fix all of the following:
+  Document does not have a main landmark
+             Document does not have a main landmark
+
+--------------------------------------------------------------------------------------------
+기타 이슈 (3건)
+--------------------------------------------------------------------------------------------
+
+[1] document-title (SERIOUS)
+ㆍ설명      : Ensure each HTML document contains a non-empty <title> element
+ㆍ권장 조치 : Documents must have <title> element to aid in navigation
+ㆍ참고 문서 : https://dequeuniversity.com/rules/axe/4.11/document-title?application=axeAPI
+ㆍ영향 요소 수 : 1
+ㆍ대표 문제 요소
+    - <html>
+      selector: html
+      근거: Fix any of the following:
+  Document does not have a non-empty <title> element
+             Document does not have a non-empty <title> element
+
+[2] html-has-lang (SERIOUS)
+ㆍ설명      : Ensure every HTML document has a lang attribute
+ㆍ권장 조치 : <html> element must have a lang attribute
+ㆍ참고 문서 : https://dequeuniversity.com/rules/axe/4.11/html-has-lang?application=axeAPI
+ㆍ영향 요소 수 : 1
+ㆍ대표 문제 요소
+    - <html>
+      selector: html
+      근거: Fix any of the following:
+  The <html> element does not have a lang attribute
+             The <html> element does not have a lang attribute
+
+[3] page-has-heading-one (MODERATE)
+ㆍ설명      : Ensure that the page, or at least one of its frames contains a level-one heading
+ㆍ권장 조치 : Page should contain a level-one heading
+ㆍ참고 문서 : https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=axeAPI
+ㆍ영향 요소 수 : 1
+ㆍ대표 문제 요소
+    - <html>
+      selector: html
+      근거: Fix all of the following:
+  Page must have a level-one heading
+             Page must have a level-one heading
+

@@ -1,0 +1,63 @@
+============================================================================================
+접근성 검사 리포트 (Accessibility Audit Report)
+============================================================================================
+
+검사 일시             : 2025-12-01 15:57:09
+검사 대상 URL         : http://localhost:8080/exbuilder/view?clx=/access/test.clx
+검사 엔진             : axe-core v4.11.0
+
+--------------------------------------------------------------------------------------------
+요약 Overview
+--------------------------------------------------------------------------------------------
+• 총 오류               : 4건
+• 통과 / 미완료 / 해당없음 : 3 / 0 / 84
+• 심각도 분포           : Critical 1 · Serious 2 · Moderate 1 · Minor 0
+
+우선순위: Critical → Serious → Moderate 순으로 조치 후 재검사를 진행하세요.
+
+============================================================================================
+상세 이슈 (Detailed Findings) - 총 4건
+============================================================================================
+
+[1] accesskeys (CRITICAL)
+--------------------------------------------------------------------------------------------
+• 이슈 설명      : Ensure each HTML document contains a non-empty <title> element
+• 권장 조치      : Documents must have <title> element to aid in navigation
+• 참고 문서      : https://dequeuniversity.com/rules/axe/4.11/accesskeys?application=axeAPI
+• 영향 요소 개수 : 0개
+• 현업 조치 TIP  : 위 요소에 적절한 속성/구조를 부여해 WCAG 조건을 충족시키세요.
+
+[2] doc-has-title (SERIOUS)
+--------------------------------------------------------------------------------------------
+• 이슈 설명      : Ensure every HTML document has a lang attribute
+• 권장 조치      : <html> element must have a lang attribute
+• 참고 문서      : https://dequeuniversity.com/rules/axe/4.11/html-has-lang?application=axeAPI
+• 영향 요소 개수 : 1개
+• 현업 조치 TIP  : 위 요소에 적절한 속성/구조를 부여해 WCAG 조건을 충족시키세요.
+
+[3] has-lang (SERIOUS)
+--------------------------------------------------------------------------------------------
+• 이슈 설명      : Ensure the document has a main landmark
+• 권장 조치      : Document should have one main landmark
+• 참고 문서      : https://dequeuniversity.com/rules/axe/4.11/landmark-one-main?application=axeAPI
+• 영향 요소 개수 : 1개
+• 현업 조치 TIP  : 위 요소에 적절한 속성/구조를 부여해 WCAG 조건을 충족시키세요.
+
+[4] page-has-main (MODERATE)
+--------------------------------------------------------------------------------------------
+• 이슈 설명      : Ensure that the page, or at least one of its frames contains a level-one heading
+• 권장 조치      : Page should contain a level-one heading
+• 참고 문서      : https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=axeAPI
+• 영향 요소 개수 : 1개
+• 현업 조치 TIP  : 위 요소에 적절한 속성/구조를 부여해 WCAG 조건을 충족시키세요.
+
+============================================================================================
+개선 권장사항
+============================================================================================
+1. Critical/Serious 항목부터 우선 수정 후 재검사를 수행하세요.
+2. 각 이슈의 참고 문서(Help URL)를 열어 구체적인 수정 예시를 확인하세요.
+3. UI 변경 후 다시 본 도구를 실행하여 개선 여부를 추적하세요.
+
+============================================================================================
+리포트 생성 완료
+============================================================================================

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:cl="http://tomatosystem.co.kr/cleopatra" xmlns:std="http://tomatosystem.co.kr/cleopatra/studio" std:sid="html-cfaff7bf" version="1.0.5696">
+  <head std:sid="head-67053ed0">
+    <screen std:sid="screen-85ab38ce" id="default" name="default" width="1024px" height="768px"/>
+    <screen std:sid="screen-c363b091" id="tablet" name="tablet" width="500px" height="667px"/>
+    <screen std:sid="screen-973a7a36" id="mobile" name="mobile" width="350px" height="525px"/>
+    <cl:model std:sid="model-80b6722f"/>
+    <cl:appspec/>
+  </head>
+  <body std:sid="body-92c1f385">
+    <cl:button std:sid="button-f9a0e585" id="btn1" value="Button">
+      <cl:xylayoutdata std:sid="xyl-data-ba357df3" top="122px" left="628px" width="324px" height="86px" horizontalAnchor="LEFT" verticalAnchor="TOP"/>
+    </cl:button>
+    <cl:output std:sid="output-480b37fa" value="Output">
+      <cl:xylayoutdata std:sid="xyl-data-c6ea9578" top="113px" left="177px" width="319px" height="95px" horizontalAnchor="LEFT" verticalAnchor="TOP"/>
+    </cl:output>
+    <cl:inputbox std:sid="i-box-cc724ede" id="ipb1">
+      <cl:xylayoutdata std:sid="xyl-data-21c83376" top="255px" left="164px" width="363px" height="71px" horizontalAnchor="LEFT" verticalAnchor="TOP"/>
+    </cl:inputbox>
+    <cl:img std:sid="image-8d686991" src="../auditor/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg">
+      <cl:xylayoutdata std:sid="xyl-data-494a22b1" top="255px" left="639px" width="313px" height="109px" horizontalAnchor="LEFT" verticalAnchor="TOP"/>
+    </cl:img>
+    <cl:xylayout std:sid="xylayout-21a06a8e"/>
+  </body>
+  <std:studiosetting>
+    <std:hruler/>
+    <std:vruler/>
+  </std:studiosetting>
+</html>
